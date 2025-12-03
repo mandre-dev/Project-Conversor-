@@ -1,0 +1,9 @@
+# Ignorar a pasta de dependências do Node
+node_modules/
+
+# Arquivos de logs e debug
+npm-debug.log
+*.log
+
+# Arquivos temporários do Multer
+uploads/

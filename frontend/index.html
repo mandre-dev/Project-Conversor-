@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Arquivos Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Madré Conversor 🔄 </h1>
+        <p>Selecione um ou mais arquivos para começar a conversão.</p>
+
+        <div class="file-input-area">
+            <input type="file" id="file-selector" multiple style="display: none;">
+            <button onclick="document.getElementById('file-selector').click()" class="btn-select-files">
+                📂 Escolher Arquivos do Computador
+            </button>
+        </div>
+
+        <div class="file-list-container">
+            <h2>Arquivos para Conversão:</h2>
+            <ul id="file-list">
+                <li class="placeholder-item">Nenhum arquivo selecionado ainda.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
